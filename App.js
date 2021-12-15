@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, ScrollView, Text } from 'react-native';
 import TotalProducts from './Component/TotalProducts';
 import Product from './Component/Product'
 import Turnover from './Component/Turnover'
@@ -10,7 +10,7 @@ import Orders from './Component/Orders'
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>      
       <View style={styles.titleWrapper}> 
         <Text style={styles.largeTitle}>Management</Text>
       </View>
@@ -20,8 +20,8 @@ export default function App() {
       <Turnover/>
       <Posts/>
       <Customers/>
-      <Orders/>            
-    </View>
+      <Orders/>   
+    </ScrollView>
     
   ) 
 }
@@ -43,8 +43,9 @@ const styles = StyleSheet.create({
   },
   divider: {
     height: StyleSheet.hairlineWidth,
-    backgroundColor: '#014CF9',
-    marginHorizontal: 16,
+    backgroundColor: 'black',
+    marginHorizontal: 15,
     marginTop: 16,
+    padding: 2
   }
 });

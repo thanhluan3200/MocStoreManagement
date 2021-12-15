@@ -8,7 +8,7 @@ const Orders = () => {
             <View style={styles.itemWrapper}>
                 {/* left side*/}
                 <View style={styles.leftWrapper}>
-                    <Image source={{uri: 'https://cdn-icons.flaticon.com/png/512/3045/premium/3045670.png?token=exp=1639327305~hmac=176f17351c8558e685bf88238a1929df'}} style={styles.image}/>
+                    <Image source={{uri: 'https://cdn-icons.flaticon.com/png/512/4304/premium/4304491.png?token=exp=1639354101~hmac=00639fdf61ee9117502c7e3387c7cfa7'}} style={styles.image}/>
                 </View>
                 <View style={styles.titlesWrapper}>
                     <Text style={styles.title}>Orders</Text>

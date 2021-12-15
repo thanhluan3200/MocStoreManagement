@@ -8,7 +8,7 @@ const Turnover = () => {
             <View style={styles.itemWrapper}>
                 {/* left side*/}
                 <View style={styles.leftWrapper}>
-                    <Image source={{uri: 'https://cdn-icons.flaticon.com/png/512/1043/premium/1043838.png?token=exp=1639326584~hmac=6862e2fa6c9c10faffe82e1d36a61c1b'}} style={styles.image}/>
+                    <Image source={{uri: 'https://cdn-icons.flaticon.com/png/512/1043/premium/1043849.png?token=exp=1639353574~hmac=7dc9e20bebe54963e23905d1bdb16d6c'}} style={styles.image}/>
                 </View>
                 <View style={styles.titlesWrapper}>
                     <Text style={styles.title}>Posts</Text>

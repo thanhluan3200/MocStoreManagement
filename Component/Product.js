@@ -8,7 +8,7 @@ const Product = () => {
             <View style={styles.itemWrapper}>
                 {/* left side*/}
                 <View style={styles.leftWrapper}>
-                    <Image source={{uri: 'https://cdn-icons.flaticon.com/png/512/2954/premium/2954891.png?token=exp=1639324246~hmac=7031cc86738a43c7e85fac88db739a46'}} style={styles.image}/>
+                    <Image source={{uri: 'https://cdn-icons-png.flaticon.com/512/1524/1524983.png'}} style={styles.image}/>
                 </View>
                 <View style={styles.titlesWrapper}>
                     <Text style={styles.title}>Product</Text>
